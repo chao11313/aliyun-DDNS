@@ -2,6 +2,14 @@
 
 修改config文件，后台运行DDNS.py，当IP变更时，域名会自动解析
 
+基于python3，依赖包：
+
+```
+#阿里云的SDK
+pip3 install aliyun-python-sdk-core
+```
+
+
 config.json：
 ```
 {
