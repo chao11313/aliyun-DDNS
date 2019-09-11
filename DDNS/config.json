@@ -1,6 +1,6 @@
 {
-    "AccessKeyId": "LTAIt54qAAAAYW8O",
-    "AccessKeySecret": "P5ajC3H5sjFAAAANBc2D21lYaGYbj",
-    "First-level-domain": "dqdata.ml",
-    "Second-level-domain": "test"
+    "AccessKeyId": "LTAIt54qAAAAYW8O",                           #阿里云解析申请的key
+    "AccessKeySecret": "P5ajC3H5sjFAAAANBc2D21lYaGYbj",          #阿里云解析申请的Secret
+    "First-level-domain": "baidu.com",                           #一级域名  如baidu.com
+    "Second-level-domain": "www"                                 #二级域名  如www
 }
