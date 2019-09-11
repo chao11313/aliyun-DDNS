@@ -12,8 +12,16 @@ config.json：
 }
 ```
 
-运行方式：
+运行方法：
+```
+#ipv4:
 nohup python -u DDNS.py >DDNS.log 2>&1 &
 
+#ipv6:
+nohup python -u DDNS.py -6 >DDNS.log 2>&1 &
+```
+
 查看日志：
+```
 tail -10f DDNS.log
+```
